@@ -19,7 +19,11 @@ function App() {
       });
   }, []);
 
-  return <></>;
+  return (
+    <>
+      <Coins coins={coins} />
+    </>
+  );
 }
 
 export default App;
